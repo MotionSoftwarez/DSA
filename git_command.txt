@@ -1,0 +1,102 @@
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA
+$ git init
+Initialized empty Git repository in C:/Users/sony/PycharmProjects/DSA/.git/
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .idea/
+        FULL_PDF/
+        array/
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git add *
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git add .
+warning: in the working copy of '.idea/inspectionProfiles/Project_Default.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.idea/inspectionProfiles/profiles_settings.xml', LF will be replaced by CRLF the next time Git touches it
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/DSA.iml
+        new file:   .idea/inspectionProfiles/Project_Default.xml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   .idea/vcs.xml
+        new file:   FULL_PDF/Data+Structures+and+Algorithms+Bootcamp+in+Python+slides+Remaster.pdf
+        new file:   array/array+module+.png
+        new file:   main.py
+
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git config --global user.name
+Pawan Sharma
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git config --global user.email
+sharma.pawan.leo@gmail.com
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git commit -m "Array initialization done"
+[master (root-commit) b75fbc1] Array initialization done
+ 10 files changed, 87 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/DSA.iml
+ create mode 100644 .idea/inspectionProfiles/Project_Default.xml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 .idea/vcs.xml
+ create mode 100644 FULL_PDF/Data+Structures+and+Algorithms+Bootcamp+in+Python+slides+Remaster.pdf
+ create mode 100644 array/array+module+.png
+ create mode 100644 main.py
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git log
+commit b75fbc1a30abc944bd52d6dbfdc002492730a763 (HEAD -> master)
+Author: Pawan Sharma <sharma.pawan.leo@gmail.com>
+Date:   Thu Sep 14 19:25:58 2023 +0530
+
+    Array initialization done
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git checkout .
+Updated 0 paths from the index
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (master)
+$ git branch -M main
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (main)
+$ git remote add origin https://github.com/MotionSoftwarez/DSA.git
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (main)
+$ git push -u origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 39.32 MiB | 5.13 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MotionSoftwarez/DSA.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+sony@Dhanvi MINGW64 ~/PycharmProjects/DSA (main)
+$
